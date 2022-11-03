@@ -1,3 +1,3 @@
 # _performance_tests
 
-Trying not to use linear algos to reduce time complexity
+Trying not to use linear algos to reduce time complexity; linear algos optimization
