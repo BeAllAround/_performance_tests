@@ -35,6 +35,6 @@ function hash_nested() {
 	// O(n+n)
 }
 
-let size = 10000
+const size = 10000
 linear_nested(size)
 hash_nested(size)
