@@ -12,6 +12,17 @@ arr.length = 100000
 arr.fill(0)
 
 let start = Date.now()
-arr.map(v=>v+1)
+// arr.map(v=>v+1)
 // _map(arr, v=>v+1)
+
+// simple 'for' vs 'forEach'
+/*
+for(let item of arr) {
+	item + 1 // operation
+}
+*/
+arr.forEach(item => {
+	item + 1
+})
 console.log('CPU: ', (Date.now() - start)/1000)
+
